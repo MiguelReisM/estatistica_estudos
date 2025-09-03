@@ -1,60 +1,47 @@
 # Estatística com Python 📊
 
-Este repositório reúne meus estudos de **estatística aplicada em Python**, seguindo o livro *Think Stats: Probability and Statistics for Programmers* (Allen B. Downey).  
-O objetivo é consolidar a teoria de probabilidade e estatística em notebooks bem documentados, aplicando os conceitos a exemplos práticos, gráficos e projetos focados em **Data Science e Finanças**.
+Este repositório reúne meus estudos de **estatística aplicada em Python**, baseado no livro *Think Stats: Probability and Statistics for Programmers (2ª edição)*, de Allen B. Downey. O objetivo é consolidar conceitos de probabilidade e estatística em notebooks bem documentados com exemplos práticos e visualizações.
 
 ---
 
-## 📚 Livro de referência
-- **Título:** Think Stats – Probability and Statistics for Programmers  
-- **Autor:** Allen B. Downey  
-- **Abordagem:** Introduz estatística de forma prática usando Python.  
-- **Motivação pessoal:** estou estudando este livro para reforçar meus fundamentos matemáticos/estatísticos e aplicar em cenários reais de **Data Science**, com foco em atuar no mercado financeiro (ex.: bancos, fintechs).
+##  Estrutura do Repositório
+- `notebooks/` → notebooks Jupyter com explicações, código e gráficos.  
+- `scripts/` → arquivos `.py` para execução rápida dos exemplos.  
+- `images/` → gráficos e a capa do livro.  
+- `data/` → datasets usados (quando necessário).  
+- `requirements.txt` → dependências para recriar o ambiente.
 
 ---
 
-## 🗂 Estrutura do repositório
-- `notebooks/` → capítulos em Jupyter Notebook (explicações + código + gráficos).  
-- `scripts/` → versões `.py` dos exemplos, para rodar direto.  
-- `images/` → gráficos gerados nos notebooks.  
-- `data/` → datasets utilizados nos exercícios.  
-- `requirements.txt` → bibliotecas necessárias.  
-
----
-
-## ✅ Capítulos concluídos
+##  Capítulos Concluídos
 - [01 - Introdução & EDA](notebooks/01_intro_eda.ipynb)  
-  Estatísticas descritivas básicas e histograma de dados fictícios de idades.  
+  Estatísticas descritivas e histograma de dados de idade.  
   ![Histograma](images/cap1_hist.png)
 
-- [02 - Medidas de Centralidade & Dispersão](notebooks/02_central_disp.ipynb)  
-  Cálculo de média, mediana, moda, variância, desvio-padrão e boxplot.  
+- [02 - Centralidade & Dispersão](notebooks/02_central_disp.ipynb)  
+  Média, mediana, moda, variância, desvio-padrão e boxplot.  
   ![Boxplot](images/cap2_boxplot.png)
 
 - [03 - PMF, CDF e PDF](notebooks/03_pmf_cdf_pdf.ipynb)  
-  Distribuições discretas (dado), acumuladas e contínuas (normal).  
+  Funções de distribuição de variáveis discretas (dado), acumuladas (CDF) e contínuas (normal).  
   ![PMF](images/pmf_dado.png) ![CDF](images/cdf_dado.png)
 
 ---
 
-## 🚀 Objetivo
-- Criar uma base sólida em estatística aplicada.  
-- Desenvolver portfólio para **Data Science**, com foco em bancos e fintechs.  
-- Mostrar minha evolução capítulo a capítulo em um formato profissional no GitHub.  
+##  Objetivo
+- Desenvolver uma base sólida em **estatística aplicada** com Python.  
+- Construir um portfólio prático e incremental, especialmente voltado para **finanças e Data Science**.  
+- Registrar todo o processo de aprendizagem de forma organizada e visualmente clara.
 
 ---
 
-## 🛠 Como rodar localmente
-```bash
-# Criar ambiente virtual
-python -m venv .venv
-source .venv/Scripts/activate  # Windows (Git Bash/PowerShell)
+##  Referência
+Estudos baseados em *Think Stats: Probability and Statistics for Programmers (2ª edição)*  
+✍️ Allen B. Downey  
 
-# Instalar dependências
-pip install -r requirements.txt
+<img src="images/capa_thinkstats2.jpg" alt="Capa do Think Stats 2ª edição" width="500"/>
 
-# Abrir Jupyter Notebook
-jupyter notebook
+---
 
-✍️ Autor: Miguel Reis
-🎯 Objetivo: Estudo contínuo em Estatística, Data Science e aplicações em Finanças.
+✍️ **Autor:** Miguel Reis  
+🎯 Foco: desenvolvimento contínuo em Estatística e Data Science aplicada.
