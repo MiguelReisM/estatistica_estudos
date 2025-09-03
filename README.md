@@ -1,4 +1,6 @@
-# Estatística com Python 📊
+# 📈 Estatística com Python  
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)  ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)  ![Numpy](https://img.shields.io/badge/Numpy-Scientific%20Computing-blue?logo=numpy&logoColor=white)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly&logoColor=white)  ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)  
 
 Este repositório reúne meus estudos de **estatística aplicada em Python**, baseado no livro *Think Stats: Probability and Statistics for Programmers (2ª edição)*, de Allen B. Downey. O objetivo é consolidar conceitos de probabilidade e estatística em notebooks bem documentados com exemplos práticos e visualizações.
 
